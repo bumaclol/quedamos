@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quedamos</title>
+    <meta
+      name="description"
+      content="Citas con día, hora y lugar. El chat se abre cuando los dos van."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="mark">Quedamos</p>
+        <h1>Citas con hora</h1>
+      </div>
+      <p class="lede">Se elige un plan corto, en un lugar público. El chat se abre cuando los dos van, y se cierra después.</p>
+    </header>
+
+    <nav class="switch" aria-label="Vistas">
+      <button type="button" id="tab-semana" class="on">Esta semana</button>
+      <button type="button" id="tab-proponer">Proponer</button>
+    </nav>
+
+    <main id="app"></main>
+    <script src="app.js"></script>
+  </body>
+</html>
